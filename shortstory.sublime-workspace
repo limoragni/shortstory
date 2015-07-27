@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"cs",
+				"css	.css() - single"
+			],
+			[
+				"bode",
+				"border"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"ani",
+				"animate	animate"
+			],
+			[
+				"anime",
+				"animate	animate"
+			],
+			[
+				"anim",
+				"animate	animate"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"no",
+				"no"
+			],
+			[
+				"id",
+				"idActual"
+			],
+			[
+				"a",
+				"attr	.attr() - multiple"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"conte",
+				"contenido-home"
+			],
+			[
+				"data",
+				"data-contenidos"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bot",
+				"botGuit"
+			],
+			[
+				"con",
+				"contenidoGuitar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/negrasus/programetion/cuadrados/index.html",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"jq e",
+				"Snippet: jQuery.each"
+			],
+			[
+				"jquery ",
+				"Snippet: jQuery(document).ready"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"Git: Open..."
+			],
+			[
+				"git op",
+				"Git: Open..."
+			],
+			[
+				"git ",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"stash",
+				"Git: Stash Drop"
+			],
+			[
+				"git sta",
+				"Git: Stash Changes"
+			],
+			[
+				"git stas",
+				"Git: Stash Changes"
+			],
+			[
+				"git rese",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/negrasus/programetion/shortstory/perfecmode/index.html",
+		"/home/negrasus/programetion/shortstory/otroshtmls/startheshow.html",
+		"/home/negrasus/programetion/shortstory/otroshtmls/espadachin.html",
+		"/home/negrasus/programetion/shortstory/css/style.css",
+		"/home/negrasus/programetion/shortstory/index.html",
+		"/home/negrasus/programetion/musiclases/css/style.css",
+		"/home/negrasus/programetion/musiclases/index.html",
+		"/home/negrasus/programetion/shortstory/css/style2.css",
+		"/home/negrasus/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/negrasus/programetion/musiclases/js/jquery.js",
+		"/home/negrasus/programetion/index.html",
+		"/home/negrasus/programetion/js/jquery.js",
+		"/home/negrasus/programetion/css/style.css",
+		"/home/negrasus/programetion/maspro.sublime-project"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"		\n",
+			"data",
+			"id",
+			"black",
+			"\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/negrasus/programetion/cuadrados/index.html",
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE>
+	<html>
+	<head>
+		<title>Espadachin Magico</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script src="../js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#bot").click(function() {
+					$("#sw1").animate({left: 130}, 300, function(){
+						$("#bot").hide('100', function() {
+							$("#masbot").css('display', '');
+						});
+						$("#masbot").click(function() {
+							$("#sw2").animate({top:50}, 300, function(){
+								$("#masbot").hide('100', function() {
+									$("#powerbot").css('display', '');
+								});
+							})
+						});
+						$("#powerbot").click(function() {
+							$("#sw3").animate({left:655}, 300,function(){
+								$("#powerbot").hide('100', function() {
+									$("#sii").css('display', '');
+								});
+							})
+						});
+						$("#sii").click(function() {
+							$("#espadas").animate({top:700}, 200)
+							$("#espadin").animate({top:0}, 300)
+						});
+					});
+				});
+			});
+		</script>
+	</head>
+	<body id="fuego">
+		<div id="container">
+			<div id="espadachin">
+				<img src="../img/definitiva/sword4.png" id="espadin">
+			</div>
+			<div id="espadas">	
+				<div class="imgs">
+					<img src="../img/definitiva/primerlex.png">
+				</div>
+				<div id="sw1">
+					<img style="width:150" src="../img/definitiva/sword1.jpg">
+				</div>
+				<div id="sw2">
+					<img style="width:240" src="../img/definitiva/sword2.jpg">
+				</div>
+				<div id="sw3">
+					<img style="width:150" src="../img/definitiva/sword3.jpg">
+				</div>
+				<div id="botis">
+					<button id="bot" style="margin-left:440;font-size:25;border-color:black">Power!</button>
+					<button id="masbot" style="margin-left:430;font-size:25;border-color:black;display:none">Mas Power!!</button>
+					<button id="powerbot" style="margin-left:440;font-size:40;border-color:black;display:none">Mas!!!</button>
+					<button id="sii" style="margin-left:445;font-size:40;border-color:black;display:none">Sii!!!</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE>
+	<html>
+	<head>
+		<title>start the show</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script src="../js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var mov = 0;
+				var cli = 0				
+				$("#bot").click(function() {
+					if (cli <= 2){
+						cli ++;
+						mov -= 1000;
+						$("#estaciones").animate({left: mov}, 1000,function(){
+							console.log(cli);
+						});
+					} else {
+						$("#bot").hide('800', function() {
+							$("#boti").append(
+								'<a href="espadachin.html"><button style="font-size:25;border-color:black;margin-left:200">Usar lecciones de espadachin magico</button></a>'+
+								'<button style="font-size:25;border-color:black;margin-left:100">Hacerse el boludo y seguir piola</button>'
+								)
+						});
+					}
+				});
+			});
+		</script>
+	</head>
+	<body id="ladri">
+		<div id="container">
+			<div id="estaciones">		
+				<div id="pri" class="imgs">	
+					<img src="../img/definitiva/primerra.png">
+				</div>
+				<div id="segu" class="imgs">
+					<img src="../img/definitiva/segunda.png">
+				</div>
+				<div id="terce" class="imgs">
+					<img src="../img/definitiva/tercera.png">
+				</div>
+				<div id="cuar" class="imgs">
+					<img src="../img/definitiva/cuarta.png">
+				</div>
+			</div>
+		</div>
+		<div id="boti">
+			<button id="bot" style="margin-left:580;font-size:25;border-color:black">Siguiente</button>
+		</div>
+	</body>
+	</html>

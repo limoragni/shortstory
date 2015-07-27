@@ -1,0 +1,82 @@
+.instruc {
+	left: 1500px;
+	position: absolute;
+	width: 100%;
+}
+#container {
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+	height: 600px;
+	position: relative;
+}
+#indica {
+	width: 800px;
+	border: 5px solid #897E7E;
+	margin: 200px 110px;
+	padding: 0 20;
+}
+
+/*aca empieza el estilo de startheshow.html*/
+
+#ladri{
+	background: url(../img/ladri1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.imgs {
+	border: 5px solid #897E7E;
+	width: 640px;
+	margin-left: 175px;
+	margin-top: 95px;
+	margin-right: 175px;
+	display: inline-block;
+}
+#estaciones {
+	width: 5000px;
+	height: 600px;
+	position: absolute;
+}
+
+/*aca empieza el estilo de espadachin.html*/
+
+#fuego {
+	background: url(../img/fuego.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#sw1 {
+	position: absolute;
+	top: 180;
+	border: 25px solid #897E7E;
+	left: -500;
+}
+#sw2 {
+	position: absolute;
+	top: -500;
+	border: 25px solid #897E7E;
+	left: 345;
+}
+#sw3 {
+	position: absolute;
+	top: 180;
+	border: 25px solid #897E7E;
+	left: 1000;
+}
+#botis {
+	margin-top: 40px;
+}
+#espadin {
+	position: absolute;
+	top: -700;
+	border: 25px solid #897E7E;
+	height: 550px;
+	left: 320px;
+}
+#espadas {
+	position: absolute;
+}

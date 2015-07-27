@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function($) {
+				
+				nodos = {
+				    0: {
+				        id: 0,
+				        src: "img/nodo0.png",
+				        options: [
+				            {node: 1, name: "Ir al 1"}
+				        ]
+				    },
+				    1: {
+				        id: 1,
+				        src: "img/nodo1.png",
+				        options: [
+				            {node: 2, name:"Ir al 2"},	
+				            {node: 3, name:"Ir al 3"}
+				        ]
+				    },
+				    2: {
+				        id: 2,
+				        src: "img/nodo2.png",
+				        options: [
+				            {node: 4, name:"Ir al 4"},
+				            {node: 5, name:"Ir al 5"}
+				        ]
+				    },
+				    3: {
+				        id: 3,
+				        src: "img/nodo3.png",
+				        options: [
+				        	{node: 4, name:"Ir al 4"},
+				        	{node: 5, name:"Ir al 5"}
+				        ]
+				    },
+				     4: {
+				        id: 4,
+				        src: "img/nodo4.png",
+				        options: []
+				    },
+				    5: {
+				        id: 5,
+				        src: "img/nodo5.png",
+				        options: []
+				    },
+				}
+
+				var Historieta = function(object){
+					this.nodes = object;
+					this.actualNode = 0;
+					//Array con todos los previous nodes
+
+				} 
+
+				// Historieta.prototype.chooseNode = function(choice){
+				// 	var node = this.nodes[this.actualNode];
+				// 	var ch = node.options[choice];
+				// 	return ch;
+				// }
+
+				Historieta.prototype.nextNode = function(nodeNumber){
+					this.actualNode = nodeNumber;
+					//Agregar al array con los previous este node HINT: array.push(valor) agrega cosas al array
+					this.showNode();
+					this.showOptions();
+				}
+
+				//Nuevo metodo que sea previousNode. Que tiene que borrar el ultimo agregado y llamar al nextNode con el anteultimo valor agregado al previous array
+				//Averiguar como hacer para encontrar el ante ultimo valor de un array
+
+				Historieta.prototype.showNode = function(){
+					var src = this.nodes[this.actualNode].src;
+					$("#actualNode").html('<img src="'+ src +'"/>');
+				}
+
+				Historieta.prototype.showOptions = function(){
+					array = this.nodes[this.actualNode].options
+					$('#options').empty()
+					for(op in array){
+						var li = $('<li class="option">')
+						li.html(array[op].name)
+						li.attr('data-node', array[op].node.toString())
+						
+						var self = this
+						
+						li.click(function(){
+						 	self.nextNode($(this).data('node'))
+						})
+						
+						$('#options').append(li)
+					}
+				}
+
+				hist = new Historieta(nodos);
+				hist.nextNode(0)
+				
+				$("#nextNode").click(function(){
+					var choice = $("#choice").val();
+					var nextNodeNumber = hist.chooseNode(choice);
+					hist.nextNode(nextNodeNumber);
+				})
+
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" id="nextNode" value="next">
+		
+		<div id="actualNode">
+
+		</div>
+
+		<ul id="options"></ul>
+	</body>
+</html>
